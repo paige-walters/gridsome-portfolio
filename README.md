@@ -12,3 +12,13 @@ This is the project you get when you run `gridsome create new-project`.
 2. `cd my-gridsome-site` to open the folder
 3. `gridsome develop` to start a local dev server at `http://localhost:8080`
 4. Happy coding 🎉🙌
+
+## Design 
+
+### Colors
+
+* Teal: 46AFB9
+* Dark Green: 184C51 
+* Cream: F5E4C3
+* Mauve/Pink: DF8C95
+* Maroon: 532A31
