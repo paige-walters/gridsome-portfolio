@@ -1,24 +1,27 @@
 <template>
-    <section class="project-section">
+    <section id="projects" class="project-section">
         <v-container>
             <v-row>
                 <v-col>
                     <h1>Projects</h1>
                 </v-col>
             </v-row>
-            <v-row class="justify-space-around mb-8 mt-4">
-                    <v-card v-for="project in projects"
-                        :key="project.name"
-                            class=""
-                            max-width="300"
-                        >
-                            <v-img
-                            class="white--text align-end"
-                            height="200px"
-                            :src="project.image"
+                <v-row class="justify-space-around mb-8 mt-4">
+                        <v-card v-for="project in projects"
+                                :key="project.name"
+                                    class="mx-auto"
+                                    height="350"
+                                    max-width="350"
                             >
-                            <v-card-title>{{project.name}}</v-card-title>
-                            </v-img>
+                            
+                                <v-img
+                                class="white--text align-end"
+                                height="200px"
+                                :src="project.image"
+                                >
+                                <v-card-title>{{project.name}}</v-card-title>
+                                </v-img>
+                        
 
 
                             <v-card-text class="text--primary">
@@ -27,7 +30,7 @@
 
                             <v-card-actions>
                             <v-btn
-                                color="orange"
+                                class="seebutton"
                                 text
                                 :href="project.github"
                             >
@@ -36,8 +39,8 @@
 
                             </v-card-actions>
                         </v-card>
-            </v-row>
-
+                    </v-hover>
+                 </v-row>
         </v-container>
     </section>
 
@@ -79,6 +82,12 @@ export default {
 
 <style scoped>
 .project-section {
-    background-color: #46AFB9;
+    background-color: #A8E6CF;
+}
+h1 {
+    color: #FCF9EC;
+}
+.seebutton {
+    color: #DF8C95;
 }
 </style>

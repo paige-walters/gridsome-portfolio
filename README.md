@@ -17,6 +17,12 @@ This is the project you get when you run `gridsome create new-project`.
 
 ### Colors
 
+* White: FAFAFA
+* Cream: FFEFE0
+* Light Pink: FED9CA 
+* Grey: C5C5C5 
+* Dark Grey: 7D7D7D 
+
 * Teal: 46AFB9
 * Dark Green: 184C51 
 * Cream: F5E4C3

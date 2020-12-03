@@ -2,8 +2,9 @@
   <Layout>
     <About />
     <Projects />
-    <Contact />
     <Education />
+    <Contact />
+    
     
 
   </Layout>

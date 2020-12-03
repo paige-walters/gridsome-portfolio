@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-navigation-drawer permanent>
+    <v-navigation-drawer permanent fixed>
       <v-list-item>
         <!-- <v-list-item-avatar>
               <v-img src="/Users/paigewalters/Desktop/Vue3Projects/gridsome-portfolio/portfolio-app/src/portfolioPic.jpg"></v-img>
@@ -25,6 +25,7 @@
           v-for="item in items"
           :key="item.title"
           link
+          :to="`#${item.title.toLowerCase().replace(' ', '-')}`"
         >
           <v-list-item-icon>
             <v-icon>{{ item.icon }}</v-icon>
@@ -74,6 +75,7 @@ query {
 }
 
 .v-main {
+  margin-left: 20em;
   flex: 1 0;
 }
 
