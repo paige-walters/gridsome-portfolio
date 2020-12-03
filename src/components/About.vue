@@ -19,13 +19,13 @@
 </template>
 
 <style scoped>
-/* .about-section {
-    background-color: #FCF9EC;
-} */
+.about-section {
+    background-color: #FAFAFA;
+}
 h1 {
-    color: #A8E6CF;
+    color: #FED9CA;
 }
 h3 {
-    color: #FFEFE0;
+    color: #C5C5C5;
 }
 </style>

@@ -82,12 +82,13 @@ export default {
 
 <style scoped>
 .project-section {
-    background-color: #A8E6CF;
+    background-color: #C5C5C5;
 }
 h1 {
-    color: #FCF9EC;
+    color: #FFEFE0;
 }
 .seebutton {
-    color: #DF8C95;
+    /* background-color: #FFEFE0; */
+    color: #FED9CA;
 }
 </style>

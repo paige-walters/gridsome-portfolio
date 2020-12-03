@@ -17,12 +17,12 @@
                         >
                         <template v-slot:opposite>
                             <span
-                            :class="`headline font-weight-bold ${year.color}--text`"
+                            :class="`headline font-weight-bold ${year.color}`"
                             v-text="year.year"
                             ></span>
                         </template>
                         <div class="py-4">
-                            <h2 :class="`headline font-weight-light mb-4 ${year.color}--text`">
+                            <h2 :class="`headline font-weight-light mb-4 ${year.color}`">
                             Lorem ipsum
                             </h2>
                             <div>
@@ -43,23 +43,23 @@
     data: () => ({
       years: [
         {
-          color: 'cyan',
+          color: 'amber lighten-5',
           year: '2020',
         },
         {
-          color: 'green',
+          color: 'blue-grey lighten-5',
           year: '2015',
         },
         {
-          color: 'pink',
+          color: 'grey lighten-5',
           year: '2010',
         },
         {
-          color: 'amber',
+          color: 'amber lighten-5',
           year: '2005',
         },
         {
-          color: 'orange',
+          color: 'blue-grey lighten-5',
           year: '2000',
         },
       ],
