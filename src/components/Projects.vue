@@ -82,7 +82,7 @@ export default {
 
 <style scoped>
 .project-section {
-    background-color: #C5C5C5;
+    background-color: lightgray;
 }
 h1 {
     color: #FFEFE0;

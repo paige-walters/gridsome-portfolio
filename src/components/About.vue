@@ -19,9 +19,9 @@
 </template>
 
 <style scoped>
-.about-section {
+/* .about-section {
     background-color: #FAFAFA;
-}
+} */
 h1 {
     color: #FED9CA;
 }
